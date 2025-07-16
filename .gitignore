@@ -1,0 +1,59 @@
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# dotenv environment files
+.env
+.env.*.local
+
+# Logs
+logs
+*.log
+logs/**/*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Build output
+dist/
+build/
+
+# React build
+client/build/
+client/dist/
+
+# VSCode settings
+.vscode/
+
+# Optional IDE configs
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Mac system files
+*.DS_Store
+
+# MongoDB data dumps (optional)
+dump/
+
+# Coverage reports
+coverage/
+
+# Next.js or Nuxt if any future expansions
+.next/
+.nuxt/
+
+# Optional: Docker
+docker-compose.override.yml
+docker-compose.dev.yml
+
+# Optional: Local database or uploads
+/uploads
+/public/uploads
+
+# Others
+*.local

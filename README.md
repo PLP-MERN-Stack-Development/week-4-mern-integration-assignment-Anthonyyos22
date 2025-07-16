@@ -1,21 +1,38 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=19943399&assignment_repo_type=AssignmentRepo)
-# MERN Stack Integration Assignment
+# MERN Blog — Week 4 Integration Assignment
 
-This assignment focuses on building a full-stack MERN (MongoDB, Express.js, React.js, Node.js) application that demonstrates seamless integration between front-end and back-end components.
+This is a simple full-stack blog application built with the **MERN stack**:
+- **MongoDB**
+- **Express.js**
+- **React.js**
+- **Node.js**
 
-## Assignment Overview
+It demonstrates CRUD operations, RESTful APIs, authentication, and dynamic UI with React Hooks and Context.
 
-You will build a blog application with the following features:
-1. RESTful API with Express.js and MongoDB
-2. React front-end with component architecture
-3. Full CRUD functionality for blog posts
-4. User authentication and authorization
-5. Advanced features like image uploads and comments
+---
+
+## 🔑 Features
+✅ User registration & login
+✅ Role-based dashboards (Admin, Manager, Sales)
+✅ Create, update, delete, filter, and search blog posts
+✅ Upload featured images
+✅ Fully responsive UI with Tailwind CSS
+✅ Context API for auth & theme toggle
+✅ Toast notifications for feedback
+✅ Admin can create categories
+
+## 📸 Screenshots
+![Home Screenshot](screenshotfolder/Home.png)
+![Post Screenshot](screenshotfolder/Post.png)
+![Tasks Screenshot](screenshotfolder/Task.png)
+
+
+## 📁 **Project Structure**
+
+
 
 ## Project Structure
 
 ```
-mern-blog/
 ├── client/                 # React front-end
 │   ├── public/             # Static files
 │   ├── src/                # React source code
@@ -38,42 +55,53 @@ mern-blog/
 └── README.md               # Project documentation
 ```
 
-## Getting Started
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Follow the setup instructions in the `Week4-Assignment.md` file
-4. Complete the tasks outlined in the assignment
+---
 
-## Files Included
+## ⚙️ **Setup Instructions**
 
-- `Week4-Assignment.md`: Detailed assignment instructions
-- Starter code for both client and server:
-  - Basic project structure
-  - Configuration files
-  - Sample models and components
+### 1️⃣ **Clone the repository**
 
-## Requirements
+```bash
+git clone https://github.com/PLP-MERN-Stack-Development/week-4-mern-integration-assignment-Anthonyyos22.git
+cd week-4-mern-integration-assignment-Anthonyyos22
+```
 
-- Node.js (v18 or higher)
-- MongoDB (local installation or Atlas account)
-- npm or yarn
-- Git
+### 2️⃣ **Install dependencies**
 
-## Submission
+#### Server:
+```bash
+cd server
+npm install
+```
 
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
+#### Client:
+```bash
+cd ../client
+npm install
+```
 
-1. Complete both the client and server portions of the application
-2. Implement all required API endpoints
-3. Create the necessary React components and hooks
-4. Document your API and setup process in the README.md
-5. Include screenshots of your working application
+ 
+### 3️⃣ Set up environment variables
+Create a .env file in the server/ folder: Use .env.example
 
-## Resources
 
-- [MongoDB Documentation](https://docs.mongodb.com/)
-- [Express.js Documentation](https://expressjs.com/)
-- [React Documentation](https://react.dev/)
-- [Node.js Documentation](https://nodejs.org/en/docs/)
-- [Mongoose Documentation](https://mongoosejs.com/docs/) 
+### 4️⃣ Run the app
+Server:
+
+```bash
+cd server
+npm run dev
+```
+
+Client:
+
+```bash
+cd ../client
+npm run dev
+```
+```
+Visit: http://localhost:5173 to view the React app.
+```
+
+

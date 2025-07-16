@@ -1,0 +1,37 @@
+base) ┌──(aizocraft㉿aizocraft)-[~/Desktop/yos/week-3-react-js-assignment-Anthonyyos22]
+└─$ tree -I "node_modules"                        
+.
+├── index.html
+├── package.json
+├── package-lock.json
+├── README.md
+├── src
+│   ├── api
+│   │   └── jsonPlaceholder.js
+│   ├── App.jsx
+│   ├── components
+│   │   ├── Button.jsx
+│   │   ├── Card.jsx
+│   │   ├── Footer.jsx
+│   │   ├── Layout.jsx
+│   │   ├── Navbar.jsx
+│   │   └── TaskManager.jsx
+│   ├── context
+│   │   └── ThemeContext.jsx
+│   ├── hooks
+│   │   └── useLocalStorage.js
+│   ├── index.css
+│   ├── main.jsx
+│   ├── pages
+│   │   ├── Home.jsx
+│   │   ├── NotFound.jsx
+│   │   └── Tasks.jsx
+│   └── router
+│       └── AppRouter.jsx
+├── tailwind.config.js
+├── utils
+│   └── helper.js
+├── vercel.json
+├── vite.config.js
+└── Week3-Assignment.md
+

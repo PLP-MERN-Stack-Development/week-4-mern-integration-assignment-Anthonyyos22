@@ -1,0 +1,15 @@
+// Using Dark ThemeContext
+
+import { useTheme } from '../context/ThemeContext';
+
+const MyComponent = () => {
+  const { theme, toggleTheme } = useTheme();
+  
+  return (
+    <div className={`my-component ${theme}`}>
+      <button onClick={toggleTheme}>
+        Toggle {theme === 'light' ? 'Dark' : 'Light'} Mode
+      </button>
+    </div>
+  );
+};

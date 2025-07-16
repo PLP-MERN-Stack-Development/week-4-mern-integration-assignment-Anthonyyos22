@@ -1,0 +1,46 @@
+s22/frontend]
+└─$ tree -I "node_modules" 
+.
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+├── public
+│   └── vite.svg
+├── README.md
+├── src
+│   ├── api.js
+│   ├── App.css
+│   ├── App.jsx
+│   ├── assets
+│   │   └── react.svg
+│   ├── components
+│   │   ├── Footer.jsx
+│   │   ├── Layout.jsx
+│   │   ├── LoadingSpinner.jsx
+│   │   ├── Navbar.css
+│   │   ├── Navbar.jsx
+│   │   └── PostForm.jsx
+│   ├── context
+│   │   ├── AuthContext.jsx
+│   │   └── ThemeContext.jsx
+│   ├── hooks
+│   │   └── useApi.js
+│   ├── index.css
+│   ├── main.jsx
+│   └── pages
+│       ├── Dashboard.jsx
+│       ├── dashboards
+│       │   ├── AdminDashboard.css
+│       │   ├── AdminDashboard.jsx
+│       │   ├── ManagerDashboard.jsx
+│       │   └── SalesDashboard.jsx
+│       ├── HomePage.jsx
+│       ├── LoginPage.jsx
+│       ├── PostsPage.css
+│       ├── PostsPage.jsx
+│       ├── RegisterPage.jsx
+│       ├── SamplePage.txt
+│       ├── TasksPage.css
+│       └── TasksPage.jsx
+└── vite.config.js

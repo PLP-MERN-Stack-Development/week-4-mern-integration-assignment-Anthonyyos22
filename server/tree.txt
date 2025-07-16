@@ -1,0 +1,28 @@
+ tree -I "node_modules"
+.
+├── config
+│   └── db.js
+├── controllers
+│   ├── authController.js
+│   └── taskController.js
+├── middleware
+│   ├── auth.js
+│   ├── errorHandler.js
+│   └── logger.js
+├── models
+│   ├── Task.js
+│   └── User.js
+├── package.json
+├── package-lock.json
+├── routes
+│   ├── authRoutes.js
+│   ├── index.js
+│   └── taskRoutes.js
+├── server.js
+└── tree.txt
+
+6 directories, 15 files
+
+
+
+APIS
